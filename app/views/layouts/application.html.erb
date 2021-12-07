@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bootstrap</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#">Page de texte Bootstrap</a></li>
+        <li><a href="#">haut de page</a></li>
+      </ul>
+    </header>
+    <%= yield %>
+    <footer>
+      <p>Operating Company DIVE ​ CODE., Ltd ​ ​</p>
+      <p>© 2015-2016 DIVE ​ CODE Corp.</p>
+    </footer>
+  </body>
+</html>
